@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="./../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./../css/style.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <!-- row 1 for search-->
+        <div class="row">
+            <!-- col 1 -->
+            <div class="col-sm-12">
+                <br>
+                <h1>Movie Search Tool</h1>
+                <input type="search" id="searchBox" placeholder="(enter movie name)">
+                <button type="button" id="searchBtn" class="btn btn-primary">Search</button>
+                <hr>
+            </div>
+            <!-- col 1 ends -->
+        </div>
+        <!-- row 1 ends -->
+        <!-- row 2 for movie details -->
+        <div class="row">
+            <div class="col-sm-2" >
+                <!-- <div style="display:none;" id="movieContainer"> -->
+                <div>
+                    <img  id="moviePoster" class="img-responsive" src="" alt="">
+                </div>
+            </div>
+            <div class="col-sm-10">
+                <div id="movieDetails">
+                    <!-- <p>Thanks for clicking. That felt good. <a href="#" rel="modal:close">Close</a> or press ESC</p> -->
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+        <!-- row 2 ends -->
+        <!-- row 3 for movies-->
+        <div class="row">
+            <div id="movies">
+                <div class="col-sm-12 col-xs-12">
+                    <!-- movies here -->
+                </div>
+            </div>
+        </div>
+        <!-- row 3 ends -->
+    </div>
+    <script type="text/javascript" src="./../js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="./../js/jquery.modal.js"></script>
+    <script type="text/javascript" src="./../js/jquery.min.js"></script>
+    <script type="text/javascript" src="./../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./../js/main.js"></script>
+</body>
+
+</html>
