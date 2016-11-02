@@ -1,0 +1,70 @@
+a
+{
+	text-decoration: underline;
+}
+
+#searchBtn
+{
+	background: steelblue;
+	color: white;
+	border: none;
+	padding: 5px 10px 5px 10px;
+}
+
+#searchBox
+{
+	min-width: 300px;
+	min-height: 26px;
+}
+
+#movies
+{
+	text-align: left;
+	padding: 10px;
+}
+
+#movieContainer
+{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+.text-gray
+{
+	color: gray;
+}
+
+.container-style
+{
+	color: white;
+	background: #002233;
+	text-align: center;
+}
+
+.blue
+{
+	color: white;
+	background: blue;
+}
+
+.white: 
+{
+	color: gray;
+	background: white;
+}
+
+.activeClass
+{
+	color: white;
+	background: steelblue;
+	border: 2px solid steelblue;
+}
+
+.inactiveClass
+{
+	color: black;
+	background: white;
+	border: none;
+}
